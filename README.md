@@ -5,7 +5,7 @@
 - HTML 5
 - Plain CSS 3
 - Visual Studio Code
-- 
+
 ## Screenshot
 ![freeCodeCamp Survey Form](https://github.com/fillahalfatih/fcc-survey-form/blob/main/screenshot/Survey-Form-freeCodeCamp-Project.png "Survey Form")
 
