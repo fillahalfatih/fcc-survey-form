@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form - freeCodeCamp Project</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1 id="title">Books Survey Form</h1>
+            <p id="description">Thank you for taking the time to help our reading environment growing</p>
+        </header>
+
+        <form id="survey-form">
+            <label for="name" id="name-label">
+                Name
+                <input type="text" id="name" placeholder="Your name" required>
+            </label>
+
+            <label for="email" id="email-label">
+                Email
+                <input type="email" id="email" placeholder="Your email" required>
+            </label>
+
+            <label for="numer" id="number-label">
+                Age
+                <input type="number" id="number" placeholder="Your Age" min="12" max="45">
+            </label>
+
+            <label for="dropdown">
+                Work
+                <select id="dropdown">
+                    <option value="">Siswa</option>
+                    <option value="">Mahasiswa</option>
+                    <option value="">Lain-lain</option>
+                </select>
+            </label>
+
+            <label for="genre" id="genre-label">Your favorite genre</label>
+
+            <input type="radio" name="genre" id="genre" value="fantasy" checked>Fantasy <br>
+            <input type="radio" name="genre" id="genre" value="advanture">Advanture <br>
+            <input type="radio" name="genre" id="genre" value="romance">Romance <br>
+            <input type="radio" name="genre" id="genre" value="science-fiction">Science Fiction <br>
+            <input type="radio" name="genre" id="genre" value="art">Art <br>
+            <input type="radio" name="genre" id="genre" value="self-help">Self-help <br>
+
+            <label for="authors" id="authors-label">Your favorite authors</label>
+
+            <input type="checkbox" id="authors" value="james-clear">James Clear <br>
+            <input type="checkbox" id="author" value="dale-carnegie">Dale Carnegie <br>
+            <input type="checkbox" id="author" value="simon-sinek">Simon Sinek <br>
+            <input type="checkbox" id="author" value="david-epstein">David Epstein <br>
+            <input type="checkbox" id="author" value="malcolm-gladwell">Malcolm Gladwell <br>
+
+            <label for="comment" id="comment-label">Comment</label>
+
+            <textarea name="" id="comment" cols="30" rows="10" placeholder="Additional comment.."></textarea>
+
+            <button type="submit" id="submit">submit</button>
+
+        </form>
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
