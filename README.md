@@ -3,7 +3,7 @@
 
 ## Tools
 - HTML 5
-- Plain CSS 3
+- Native CSS
 - Visual Studio Code
 
 ## Screenshot
